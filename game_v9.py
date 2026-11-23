@@ -16,6 +16,7 @@ import config as C  # noqa: E402
 
 LOG = os.path.join(HERE, "v9_errors.log")
 _seen = set()
+MISSED = []   # 원본에서 찾지 못한 치환 (test_smoke.py 가 비어 있는지 검사한다)
 # v8 원본의 '함수 안에 박혀 있던 숫자'를 config.py 의 값으로 바꿔 끼운다. (원본 파일은 그대로 두고 읽을 때만 바꾼다)
 PATCHES = [
     ('sp = 70 * (1 + 0.08 * g["lv"]["spd"])', 'sp = CFG.PLAYER["speed"] * (1 + 0.08 * g["lv"]["spd"])'),
@@ -60,7 +61,8 @@ def load_base(path):
         if old in src:
             src = src.replace(old, new)
         else:
-            print(f"[v9] 참고: 원본에서 찾지 못한 치환 -> {old[:40]!r} (해당 설정은 config.py 에서 적용되지 않을 수 있음)", file=sys.stderr)
+            MISSED.append(old)
+            print(f"[v9] 경고: 원본에서 찾지 못한 치환 -> {old[:40]!r} (해당 설정은 config.py 에서 적용되지 않을 수 있음)", file=sys.stderr)
     mod = types.ModuleType("topdown_rpg")
     mod.__file__ = path
     mod.CFG = C

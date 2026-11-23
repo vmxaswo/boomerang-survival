@@ -1,16 +1,82 @@
-## Hi there 👋
+# 부메랑으로 살아남기 (Pixel Ruins)
 
-<!--
-**vmxaswo/vmxaswo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+부메랑 하나로 고대 기계 문명의 폐허를 탐험하는 탑다운 픽셀 액션 RPG입니다.
+오픈월드를 돌아다니며 재료를 모으고, 부메랑을 강화하고, 수호 기계 보스들을 쓰러뜨려 도시의 심장으로 향합니다.
 
-Here are some ideas to get you started:
+## 실행 방법
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+1. [Python](https://www.python.org/) 3을 설치합니다. (Python 3.13 + pygame-ce 2.5.6에서 확인함)
+2. 이 폴더에서 필요한 라이브러리를 설치합니다.
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. 게임을 실행합니다.
+
+   ```
+   python game_v9.py
+   ```
+
+개발자 모드로 실행하려면 `python game_v9.py --dev` 로 실행한 뒤 게임 안에서 **F1**을 누릅니다.
+(무적·원킬·보스방 순간이동 등. 개발자 모드에서는 저장하지 않습니다.)
+
+## 조작법
+
+| 키 | 동작 |
+| --- | --- |
+| WASD / 방향키 | 이동 (8방향) |
+| Space | 부메랑 던지기 (가까운 적 자동 조준) |
+| E | 상호작용 (상점·대장간·모루·마차·워프포인트) |
+| Z / X / C | 능력 부메랑 켜기/끄기 |
+| Q | 포션 |
+| I | 인벤토리 |
+| M | 지도 (워프포인트 이동) |
+| N | 소리 켜기/끄기 |
+| ESC | 일시정지 |
+
+## 보스
+
+| 장소 | 보스 |
+| --- | --- |
+| 수문장의 성문 (서쪽) | 수문장 벌크스틸 - 네 발로 걷는 성문 요새 |
+| 연금 제련소 (동쪽) | 공장장 알케미스트 - 반응로 플라스크 몸체의 제련사 |
+| 과열 보일러실 (북쪽) | 수석 정비관 오버히트 - 열·냉기 이중 구동 보일러 거미 |
+| 도시의 심장부 (사원) | 최종 보스 빅 브라더 Ω - 4페이즈 |
+| 화룡의 용암 둥지 (남동쪽) | 선택형 슈퍼보스 화룡 이그니스 |
+| 얼어붙은 공터 (남서쪽) | 필드 보스 탈라소르 - 월드를 배회하는 괴수 |
+
+## 수치 바꾸기
+
+난이도·보스 체력·플레이어 속도·경제 같은 숫자는 전부 [`config.py`](config.py)에 모여 있습니다.
+숫자만 고치고 게임을 다시 실행하면 바로 적용됩니다.
+
+## 코드 구조
+
+`topdown_rpg.py`(v8 원본)는 직접 고치지 않고, `game_v9.py`가 실행할 때 v9 모듈들을 그 위에 차례로 덮어씌웁니다.
+
+| 파일 | 역할 |
+| --- | --- |
+| `game_v9.py` | 실행 파일. 원본을 불러와 v9 모듈을 순서대로 설치 |
+| `topdown_rpg.py` | v8 원본 게임 (기본 이동·전투·상점·강화) |
+| `config.py` | 게임 수치 설정 |
+| `v9_open.py` | 오픈월드 생성 (지형·길·강·워프포인트) |
+| `v9_world.py`, `v9_art.py`, `v9_lair.py` | 월드 장식·조명·아트 |
+| `v9_ui.py` | HUD·지도·타이틀·저장/불러오기 |
+| `v9_boss.py` | 위험 구역·패턴 스케줄러·최종 보스방 |
+| `v9_roster*.py`, `v9_boss_art.py`, `v9_ba_*.py` | 중간보스 3기·최종 보스 AI와 그림 |
+| `v9_dragon*.py` | 화룡 이그니스 |
+| `v9_kaiju*.py` | 필드 보스 탈라소르 |
+| `v9_pfx.py`, `gen_fx.py`, `fx_sheets/` | 이펙트 스프라이트 시트와 연출 |
+| `v9_dev.py` | 개발자 모드 |
+| `test_smoke.py` | 자동 시험 |
+
+## 자동 시험
+
+코드를 고친 뒤 아래를 실행하면 창 없이 모든 보스 전투와 저장/불러오기를 1~2분 동안 돌려 보고 `통과`/`실패`를 알려 줍니다.
+
+```
+python test_smoke.py
+```
+
+게임 중 오류가 나도 게임은 멈추지 않고 `v9_errors.log`에 기록됩니다.

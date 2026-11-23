@@ -19,6 +19,7 @@ PNAMES = (("녹슨 철벽", "요새화 거포 모드", "제한 해제"),
           ("컨베이어 조종", "용융 제련", "자원 재활용", "공장 자폭 시퀀스"),
           ("과열 모드", "극저온 열교환", "열폭주 과부하", "초고온 플라즈마 폼"))
 FINAL_NAME, FINAL_SUB = "도시의 심장, 빅 브라더 (Big Brother - Ω)", "공간을 왜곡하는 메인 코어"
+ROOM_NAMES = dict(boss_w="수문장의 성문", boss_e="연금 제련소", boss_n="과열 보일러실", boss_f="도시의 심장부")
 FINAL_PN = ("외곽 시스템", "본체 노출 · 공간 왜곡", "시스템 해킹 · 정신 오염", "멸망 프로토콜")
 MID_COL = ((235, 70, 70), (255, 150, 60), (255, 220, 110), (255, 250, 230))
 YES = lambda g, e: True  # noqa: E731
@@ -1719,6 +1720,10 @@ def install(g_mod, cfg, boss_mod):
     global G, C, B
     G, C, B = g_mod, cfg, boss_mod
     G.MID_NAMES, G.BOSS_SUB = NAMES, SUBS
+    for zid, nm in ROOM_NAMES.items():                         # v8 보스(오큘러스·가이아·노바) 시절 방 이름 -> 새 보스에 맞게
+        z = G.ZONES[zid]
+        z["name"] = nm
+        G.REGIONS[z["reg"]]["name"] = nm
     G.FOE_NAME["ex"], G.FOE_NAME["final"], G.FOE_NAME["pylon"] = "소환체", "빅 브라더", "서브 코어"
     G.AGGRO["ex"] = 9999
     B.FINAL_NAME, B.FINAL_SUB = FINAL_NAME, FINAL_SUB

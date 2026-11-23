@@ -20,7 +20,7 @@ NODES = dict(north=(80, 40), boss_n=(136, 40), temple=(80, 84), boss_f=(136, 84)
 LINKS = (("field", "temple"), ("temple", "north"), ("field", "west"), ("field", "east"), ("west", "boss_w"),
          ("east", "boss_e"), ("north", "boss_n"), ("temple", "boss_f"))
 SHORT = dict(field="초원 마을", west="서쪽 회랑", east="동쪽 정원", temple="사원 터", north="북쪽 유적",
-             boss_w="관측의 전당", boss_e="가시 성소", boss_n="중력 심장", boss_f="핵의 심장부")
+             boss_w="수문장의 성문", boss_e="연금 제련소", boss_n="과열 보일러실", boss_f="도시의 심장부")
 _CACHE = {}
 
 
