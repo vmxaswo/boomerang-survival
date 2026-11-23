@@ -1,0 +1,435 @@
+{
+ "frames": [
+  {
+   "filename": "td-flame 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 1",
+   "frame": {
+    "x": 240,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 2",
+   "frame": {
+    "x": 480,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 3",
+   "frame": {
+    "x": 720,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 4",
+   "frame": {
+    "x": 960,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 5",
+   "frame": {
+    "x": 0,
+    "y": 240,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 6",
+   "frame": {
+    "x": 240,
+    "y": 240,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 7",
+   "frame": {
+    "x": 480,
+    "y": 240,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 8",
+   "frame": {
+    "x": 720,
+    "y": 240,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 9",
+   "frame": {
+    "x": 960,
+    "y": 240,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 10",
+   "frame": {
+    "x": 0,
+    "y": 480,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 11",
+   "frame": {
+    "x": 240,
+    "y": 480,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 12",
+   "frame": {
+    "x": 480,
+    "y": 480,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 13",
+   "frame": {
+    "x": 720,
+    "y": 480,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 14",
+   "frame": {
+    "x": 960,
+    "y": 480,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 15",
+   "frame": {
+    "x": 0,
+    "y": 720,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 16",
+   "frame": {
+    "x": 240,
+    "y": 720,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-flame 17",
+   "frame": {
+    "x": 480,
+    "y": 720,
+    "w": 240,
+    "h": 240
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 240,
+    "h": 240
+   },
+   "sourceSize": {
+    "w": 240,
+    "h": 240
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "td-flame.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1200,
+   "h": 960
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "td-flame",
+    "from": 0,
+    "to": 17,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "topdown/td-flame",
+   "name": "Top-down flame breath",
+   "fps": 30,
+   "loop": true,
+   "frames": 18,
+   "frameSize": [
+    240,
+    240
+   ],
+   "pivot": [
+    120,
+    120
+   ],
+   "columns": 5
+  }
+ }
+}

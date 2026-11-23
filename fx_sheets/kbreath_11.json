@@ -1,0 +1,435 @@
+{
+ "frames": [
+  {
+   "filename": "td-frostbreath 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 1",
+   "frame": {
+    "x": 260,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 2",
+   "frame": {
+    "x": 520,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 3",
+   "frame": {
+    "x": 780,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 4",
+   "frame": {
+    "x": 1040,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 5",
+   "frame": {
+    "x": 0,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 6",
+   "frame": {
+    "x": 260,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 7",
+   "frame": {
+    "x": 520,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 8",
+   "frame": {
+    "x": 780,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 9",
+   "frame": {
+    "x": 1040,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 10",
+   "frame": {
+    "x": 0,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 11",
+   "frame": {
+    "x": 260,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 12",
+   "frame": {
+    "x": 520,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 13",
+   "frame": {
+    "x": 780,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 14",
+   "frame": {
+    "x": 1040,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 15",
+   "frame": {
+    "x": 0,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 16",
+   "frame": {
+    "x": 260,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-frostbreath 17",
+   "frame": {
+    "x": 520,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "td-frostbreath.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1300,
+   "h": 1040
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "td-frostbreath",
+    "from": 0,
+    "to": 17,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "topdown/td-frostbreath",
+   "name": "Top-down frost-lightning breath",
+   "fps": 30,
+   "loop": true,
+   "frames": 18,
+   "frameSize": [
+    260,
+    260
+   ],
+   "pivot": [
+    130,
+    130
+   ],
+   "columns": 5
+  }
+ }
+}

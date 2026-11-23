@@ -1,0 +1,523 @@
+{
+ "frames": [
+  {
+   "filename": "td-gust 0",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 1",
+   "frame": {
+    "x": 260,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 2",
+   "frame": {
+    "x": 520,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 3",
+   "frame": {
+    "x": 780,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 4",
+   "frame": {
+    "x": 1040,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 5",
+   "frame": {
+    "x": 0,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 6",
+   "frame": {
+    "x": 260,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 7",
+   "frame": {
+    "x": 520,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 8",
+   "frame": {
+    "x": 780,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 9",
+   "frame": {
+    "x": 1040,
+    "y": 260,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 10",
+   "frame": {
+    "x": 0,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 11",
+   "frame": {
+    "x": 260,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 12",
+   "frame": {
+    "x": 520,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 13",
+   "frame": {
+    "x": 780,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 14",
+   "frame": {
+    "x": 1040,
+    "y": 520,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 15",
+   "frame": {
+    "x": 0,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 16",
+   "frame": {
+    "x": 260,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 17",
+   "frame": {
+    "x": 520,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 18",
+   "frame": {
+    "x": 780,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 19",
+   "frame": {
+    "x": 1040,
+    "y": 780,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 20",
+   "frame": {
+    "x": 0,
+    "y": 1040,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  },
+  {
+   "filename": "td-gust 21",
+   "frame": {
+    "x": 260,
+    "y": 1040,
+    "w": 260,
+    "h": 260
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 260,
+    "h": 260
+   },
+   "sourceSize": {
+    "w": 260,
+    "h": 260
+   },
+   "duration": 33
+  }
+ ],
+ "meta": {
+  "app": "https://github.com/patch-gg/pixelfx",
+  "version": "1",
+  "image": "td-gust.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 1300,
+   "h": 1300
+  },
+  "scale": "1",
+  "frameTags": [
+   {
+    "name": "td-gust",
+    "from": 0,
+    "to": 21,
+    "direction": "forward"
+   }
+  ],
+  "pixelfx": {
+   "id": "topdown/td-gust",
+   "name": "Top-down wing gust",
+   "fps": 30,
+   "loop": false,
+   "frames": 22,
+   "frameSize": [
+    260,
+    260
+   ],
+   "pivot": [
+    130,
+    130
+   ],
+   "columns": 5
+  }
+ }
+}
