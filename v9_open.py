@@ -48,8 +48,9 @@ def layout(wt, ht):
     temple = (cx - 6, t0, cx + 6, t0 + 11)                        # 13x12 중앙 사원
     lw, ly = int(wt * 0.12), int(ht * 0.50)
     ny = int(ht * 0.05) + 1
-    lairs = dict(west=(lw, ly, lw + 8, ly + 8, "e", 0),
-                 east=(wt - 1 - lw - 8, ly, wt - 1 - lw, ly + 8, "w", 1),
+    # 수호 기계의 방은 모두 문이 남쪽(화면 아래)을 향한다: 쿼터뷰에서 건물 정면이 보이도록 (v9_sites 가 건물로 그린다)
+    lairs = dict(west=(lw, ly, lw + 8, ly + 8, "s", 0),
+                 east=(wt - 1 - lw - 8, ly, wt - 1 - lw, ly + 8, "s", 1),
                  north=(cx - 4, ny, cx + 4, ny + 8, "s", 2))
     return dict(vil=vil, temple=temple, lairs=lairs)
 

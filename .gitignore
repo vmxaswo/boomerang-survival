@@ -2,3 +2,5 @@
 .idea/
 *.log
 savegame.json
+savegame_*.json
+settings.json

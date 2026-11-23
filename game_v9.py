@@ -104,9 +104,24 @@ def build():
     v9_lair.install(G, C, v9_world, v9_open)
     v9_pfx.install(G, v9_roster, v9_boss, v9_dragon, v9_dragon_fx)   # pixelfx 이펙트 (패턴 발동·페이즈·피격·처치)
     v9_kaiju.install(G, C, v9_boss, v9_world, v9_open, v9_ui, v9_roster)   # 필드 보스 탈라소르 (월드 남서쪽 얼음 공터)
+    import v9_sites
+    v9_sites.install(G, C, v9_world, v9_open)  # 보스 성역·중앙 사원 구역·입체 절벽 (월드 후처리)
+    import v9_rooms
+    v9_rooms.install(G, v9_world)              # 보스방 내부: 성채 / 공장 / 보일러실 테마
+    import v9_audio
+    v9_audio.install(G)                        # 지역별 배경음악(여러 층) + 새 효과음 + 음량
     if "--dev" in sys.argv:
         import v9_dev
         v9_dev.install(G, C, v9_ui, v9_world)
+    import v9_style
+    v9_style.install(G, C, v9_ui, v9_open)     # UI 디자인(글꼴·패널·시작화면·일시정지·인벤토리·상점)
+    import v9_feel
+    v9_feel.install(G, C, v9_ui, v9_world, v9_open, v9_sites, v9_style)   # 깊이·히트스톱·연출·안내·엔딩
+    import v9_rewards
+    v9_rewards.install(G, v9_ui, v9_style)    # 능력 부메랑 = 보스 처치 보상 (관통: 탈라소르, 쌍둥이: 이그니스)
+    import v9_menu
+    v9_menu.install(G, C, v9_ui, v9_style, v9_audio, v9_feel)            # 메인 루프·저장 슬롯·설정·게임패드: 맨 마지막
+    v9_world.V["save"] = v9_ui.save_game       # 자동 저장도 슬롯·플레이 시간 기록을 거치게
     return G, v9_ui
 
 
